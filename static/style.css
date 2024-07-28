@@ -44,9 +44,10 @@ form {
 }
 
 input[type="file"] {
-    margin: 20px 0;
-    font-size: 1.5em;
-    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    padding: 20px;
+
 }
 
 input[type="submit"] {

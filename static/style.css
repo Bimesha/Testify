@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 body {
     background-color: #003135;
-    font-family: Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,14 +13,17 @@ body {
 }
 
 h1 {
-    font-size: 5em;
+    font-size: 8em;
     margin-bottom: 10px;
     color: #fff;
+    font-family: 'Overlock SC' ,sans-serif;
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 4em;
     color: #fff;
+    font-family: 'Nunito' ,sans-serif;
+    margin: 10px 0 30px 0;
 }
 
 .upload-box {

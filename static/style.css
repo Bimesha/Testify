@@ -44,19 +44,22 @@ form {
 }
 
 input[type="file"] {
-    margin: 10px 0;
-    font-size: 1em;
+    margin: 15px 0;
+    font-size: 1.2em;
     padding: 20px;
+    position: relative;
+    left: 50px;
+    font-family: 'Nunito' ,sans-serif;
 
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #003135;
     color: white;
     border: none;
     padding: 15px 30px;
-    font-size: 1.2em;
-    border-radius: 5px;
+    font-size: 1.5em;
+    border-radius: 7px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
